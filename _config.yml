@@ -28,16 +28,17 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-
+permalink: /:title/
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
 
-jam_comments:
-  domain: JAM_COMMENTS_DOMAIN
-  api_key: JAM_COMMENTS_API_KEY
+# jam_comments:
+#   domain: macarthur.me
+#   api_key: 3|MEk155tEtoEQgrAK3c5ssMKeINX1hbWaAsEVUvhJ
+#   base_url: http://localhost
 
 # Exclude from processing.
 # The following items will not be processed, by default.

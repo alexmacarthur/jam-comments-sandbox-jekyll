@@ -32,8 +32,8 @@ layout: default
     {{ content }}
   </div>
 
-  COMMENTS HERE:
-  <p>{% jam_comments path="/path" %}</p>
+  here!! {{ page.url }}
+  <p>{% jam_comments %}</p>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
